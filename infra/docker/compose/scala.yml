@@ -1,7 +1,7 @@
 scala:
   image: hseeberger/scala-sbt
   container_name: scala
-  working_dir: /src
+  working_dir: /project
   volumes:
-    - ./../../../src:/src
+    - ./../../../:/project
   entrypoint: tail -f /dev/null
