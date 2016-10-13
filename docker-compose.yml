@@ -1,0 +1,4 @@
+scala:
+  extends: 
+    file: ./infra/docker/compose/scala.yml
+    service: scala
