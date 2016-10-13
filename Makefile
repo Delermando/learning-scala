@@ -7,5 +7,5 @@ kill:
 rm: kill
 	docker-compose rm -f
 
-dev:
+dev: up
 	docker exec -it scala /bin/bash
