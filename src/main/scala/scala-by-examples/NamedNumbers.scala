@@ -1,0 +1,7 @@
+type Named = PartialFunction[Int,String]
+
+val douglas:Named = {case 42 => "The Answer"}
+val sheldon:Named = {case 73 => "The Best"}
+val cool = douglas orElse sheldon
+
+1 to 1000 collect cool foreach println
