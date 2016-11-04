@@ -1,4 +1,4 @@
-name := "Hello, world!"
+name := "learn-scala"
 
 version := "1.0.0"
 
